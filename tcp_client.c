@@ -60,7 +60,7 @@ int main(int argc , char *argv[])
     //Add a NULL terminating character to make it a proper string before printing
     server_reply[recv_size] = '\0';
     puts(server_reply);
-
+	
 	getchar();
     return 0;
 }
